@@ -6,7 +6,7 @@ import HomeProjects from './HomeProjects'
 export default function Home() {
   return (
     <>
-        <section>
+        <section id='home' className="text-center">
             <HomeIntroduction />
             <HomeProjects />
             <HomeBlogs />
